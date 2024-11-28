@@ -21,7 +21,7 @@ const App = () => {
     "+": (a, b) => a + b,
     "-": (a, b) => a - b,
     "*": (a, b) => a * b,
-    "/": (a, b) => (b !== 0 ? a / b : "Error (Div by 0)"),
+    "/": (a, b) => (b !== 0 ? a / b : "0"),
     "^": (a, b) => Math.pow(a, b),
     "%": (a, b) => a % b,
     "√": (a) => Math.sqrt(a),
